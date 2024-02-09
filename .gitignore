@@ -36,3 +36,7 @@ lerna-debug.log*
 
 # local env files
 .env*.local
+
+docker-compose.yaml
+
+postgres-data

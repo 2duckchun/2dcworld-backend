@@ -2,3 +2,10 @@ export const GITHUB_CLIENT_ID = 'GITHUB_CLIENT_ID';
 export const GITHUB_CLIENT_SECRET = 'GITHUB_CLIENT_SECRET';
 export const GITHUB_GET_USER_INFO_URL = 'GITHUB_GET_USER_INFO_URL';
 export const GITHUB_GET_TOKEN_URL = 'GITHUB_GET_TOKEN_URL';
+
+export const ENV_DB_TYPE = 'DB_TYPE';
+export const ENV_DB_HOST = 'DB_HOST';
+export const ENV_DB_PORT = 'DB_PORT';
+export const ENV_DB_USERNAME = 'DB_USERNAME';
+export const ENV_DB_PASSWORD = 'DB_PASSWORD';
+export const ENV_DB_DATABASE = 'DB_DATABASE';
