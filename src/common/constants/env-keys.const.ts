@@ -3,6 +3,8 @@ export const GITHUB_CLIENT_SECRET = 'GITHUB_CLIENT_SECRET';
 export const GITHUB_GET_USER_INFO_URL = 'GITHUB_GET_USER_INFO_URL';
 export const GITHUB_GET_TOKEN_URL = 'GITHUB_GET_TOKEN_URL';
 
+export const JWT_SECRET = 'JWT_SECRET';
+
 export const ENV_DB_TYPE = 'DB_TYPE';
 export const ENV_DB_HOST = 'DB_HOST';
 export const ENV_DB_PORT = 'DB_PORT';

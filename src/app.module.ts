@@ -14,6 +14,7 @@ import {
   ENV_DB_TYPE,
   ENV_DB_USERNAME,
 } from './common/constants/env-keys.const';
+import { UsersModel } from './users/entities/users.entity';
 
 @Module({
   imports: [
@@ -33,6 +34,7 @@ import {
       password: process.env[ENV_DB_PASSWORD],
       database: process.env[ENV_DB_DATABASE],
       synchronize: true,
+      entities: [UsersModel],
     }),
     AuthModule,
     UsersModule,
